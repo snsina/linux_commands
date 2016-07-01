@@ -1,5 +1,6 @@
 # linux_commands
 Useful linux commands 
+Website: http://www.snsina.com
 
 This is a simple Linux Command tool to kill all processes having or containing same name.
 
@@ -12,7 +13,9 @@ This tool has been tested on CentOS 7
 for instance: `killp process_name' 
 
 ## Example
+```
 killp firefox
+```
 
 ## Note
 if you are not able to run it type this command 'chmod +x /usr/bin/killp' as root user
