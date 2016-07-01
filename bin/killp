@@ -1,0 +1,4 @@
+#!/bin/sh
+service=$1
+echo $service
+kill -9 $(ps aux | grep -i $service | grep -v grep | awk '{print $2'})
